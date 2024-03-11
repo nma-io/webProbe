@@ -21,7 +21,7 @@ To get started with `webProbe`, you need to have Go installed on your system. Yo
     `cd webProbe`
 
 3. **Build** 
- `go build -o build --buildvcs=false -ldflags="-s -w" -trimpath -o webProbe webProbe.go`
+ `go build -o build --buildvcs=false -ldflags="-s -w" -trimpath -o webProbe main.go`
 
 4. **Run**
     `./webProbe <website URL>`
